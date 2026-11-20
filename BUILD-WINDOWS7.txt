@@ -1,0 +1,6 @@
+Windows 7 build notes
+1. Windows 7 SP1 x64 is required.
+2. Install .NET Framework 4.8 and Visual Studio 2019 Build Tools / Visual Studio with the .NET desktop workload and .NET Framework 4.8 targeting pack.
+3. Open NexusVR.sln and build Release | x64.
+4. If Visual Studio 2019 cannot be installed on the machine, build via GitHub Actions and copy the published output to the Windows 7 PC.
+5. This app is unsigned. Windows SmartScreen/Defender may show warnings for unsigned builds.
